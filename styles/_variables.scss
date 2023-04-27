@@ -1,0 +1,6 @@
+$dark-color: black;
+$light-color: #fff;
+$colors:(dark:black, light:#fff);
+$border1-default: 1px solid map-get($colors, dark);
+$border2-default: 2px solid map-get($colors, dark);
+$border3-default: 2px solid map-get($colors, light);
